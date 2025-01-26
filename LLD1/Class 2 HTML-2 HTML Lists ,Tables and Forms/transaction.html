@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border>
+
+        <tr>
+            <td>Date </td>
+            <td>Purpose</td>
+            <td>Credit</td>
+            <td>Debit</td>
+        </tr>
+        <tr>
+            <td>26th January </td>
+            <td>Laptop</td>
+            <td>25000</td>
+            <td>10000</td>
+        </tr>
+        <tr>
+            <td>26th January </td>
+            <td>Laptop</td>
+            <td></td>
+            <td>10000</td>
+        </tr>
+        <tr>
+            <td>26th January </td>
+            <td>Laptop</td>
+            <td></td>
+            <td>10000</td>
+        </tr>
+
+        <tr>
+            <td> </td>
+            <td>Total</td>
+            <td>100000</td>
+            <td>24000</td>
+        </tr>
+    </table>
+    <p>Lets structure the table as per search engine
+
+    <table border style="border-collapse: collapse;">
+        <caption> <i> <b>Transaction Details</b></i></caption>
+
+        <thead>
+            <tr>
+                <td>Date </td>
+                <td>Purpose</td>
+                <td>Credit</td>
+                <td>Debit</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">26th January </td>
+                <td>Laptop</td>
+                <td>25000</td>
+                <td>10000</td>
+            </tr>
+            <tr>
+              
+                <td>Laptop</td>
+                <td></td>
+                <td>10000</td>
+            </tr>
+            <tr>
+                <td>27th January </td>
+                <td>Laptop</td>
+                <td></td>
+                <td>10000</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+
+            <tr>
+                <td colspan="2">Total</td>
+                <td>100000</td>
+                <td>24000</td>
+            </tr>
+
+        </tfoot>
+
+    </table>
+    </p>
+</body>
+
+</html>
